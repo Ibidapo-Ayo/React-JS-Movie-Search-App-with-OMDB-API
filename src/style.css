@@ -1,0 +1,58 @@
+.bg-dark{
+    background: rgba(41, 41, 41, 1);
+}
+
+.banner{
+    height: 550px;
+    background-image: url('../assets/images/bg.jpg') !important;
+}
+.banner .container h3{
+    width: 490px;
+height: 282px;
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 94px;
+letter-spacing: -0.05em;
+
+color: #FFFFFF;
+}
+
+.search_area .container p{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+}
+.pt-97{
+    padding-top: 97px;
+}
+.card .card-img-overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 600px){
+    .row{
+        flex-direction: column !important;
+}
+.banner .container h3{
+    width: 273px;
+    height: 72px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    
+    color: #FFFFFF;
+}
+.banner{
+    height: 257px;
+}
+}
